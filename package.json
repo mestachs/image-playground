@@ -1,7 +1,6 @@
 {
   "name": "image-playground",
-  "homepage": "https://mestachs.github.io/mastodon-unroll",
-  
+  "homepage": "https://mestachs.github.io/image-playground",
   "private": true,
   "version": "0.0.0",
   "type": "module",

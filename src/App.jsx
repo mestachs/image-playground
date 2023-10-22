@@ -19,7 +19,7 @@ function applyThreshold(sourceImageData, outputImageData, threshold = 127) {
   return sourceImageData;
 }
 
-function applyThreshold2(sourceImageData, threshold = 120) {
+function applyThreshold2(sourceImageData, threshold = 200) {
   const pixels = sourceImageData.data;
 
   // Manipulate the pixels (e.g., invert colors)
@@ -126,7 +126,7 @@ function App() {
 
         applyThreshold2(imageData);
 
-        ctx.putImageData(cleanupImage(cleanupImage(imageData)), 0, 0);
+        ctx.putImageData(cleanupImage(imageData), 0, 0);
       };
     };
 
